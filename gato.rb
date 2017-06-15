@@ -39,24 +39,5 @@ def gato
   tamaño=gato.length-1
 
 
-  puts " "
-
-    for i in 0..tamaño
-    print "  ",gato[0][0][i]," "
-    end
-    puts " " 
-    p "____________"fdgsdhsehstnw5he
-    puts " "  
-    for i in 0..tamaño
-    print "  ",gato[1][0][i]," "  
-    end
-    n " " 
-    p "____________"
-    puts " "  
-    for i in 0..tamaño
-    print "  ",gato[2][0][i]," "  
-    end
-
-  puts " "
-  puts " "
+ 
 end
