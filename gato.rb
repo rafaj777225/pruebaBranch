@@ -26,16 +26,16 @@ def gato
   number=rand(2)
   a=[]
 
-    if number==1
-      cat=(Array.new(5) { |x| 'x' } + Array.new(4) { |y| 'o' }).sort_by {rand}  
-    elsif number==0
-      cat=(Array.new(4) { |x| 'x' } + Array.new(5) { |y| 'o' }).sort_by {rand}
-    end
-  a=[cat[0],cat[1],cat[2]]
-  b=[cat[3],cat[4],cat[5]]
-  c=[cat[6],cat[7],cat[8]]
+  #   if number==1
+  #     cat=(Array.new(5) { |x| 'x' } + Array.new(4) { |y| 'o' }).sort_by {rand}  
+  #   elsif number==0
+  #     cat=(Array.new(4) { |x| 'x' } + Array.new(5) { |y| 'o' }).sort_by {rand}
+  #   end
+  # a=[cat[0],cat[1],cat[2]]
+  # b=[cat[3],cat[4],cat[5]]
+  # c=[cat[6],cat[7],cat[8]]
 
-  gato=[[a],[b],[c]]
+  # gato=[[a],[b],[c]]
   tamaño=gato.length-1
 
 
@@ -45,12 +45,12 @@ def gato
     print "  ",gato[0][0][i]," "
     end
     puts " " 
-    p "____________"
+    p "____________"fdgsdhsehstnw5he
     puts " "  
     for i in 0..tamaño
     print "  ",gato[1][0][i]," "  
     end
-    puts " " 
+    n " " 
     p "____________"
     puts " "  
     for i in 0..tamaño
